@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>DBI</title>
+      <title>Movies</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -20,7 +20,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
       <!-- fevicon -->
-      <link rel="icon" href="frontend/images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{asset('frontend/css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
@@ -35,14 +35,14 @@
       <!-- header section start -->
       <div class="header_section">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="logo" href="index.html"><img src="frontend/images/logo.png"></a>
+            <a class="logo" href="index.html"><img src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                     <a class="nav-link" href="\">Trang Chủ</a>
+                     <a class="nav-link" href="\">Home</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="\truyen">Tiểu thuyết</a>
@@ -51,102 +51,46 @@
                      <a class="nav-link" href="\sach">Sách</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="celebs.html">Tác Giả</a>
+                     <a class="nav-link" href="celebs.html">Celebs</a>
                   </li>
                </ul>
-               <div class="search_icon"><a href="#"><img src="frontend/images/notification-icon.png"><span class="padding_left_15">Thông Báo</span></a></div>
-               <div class="search_icon"><a href="#"><img src="frontend/images/eye-icon.png"><span class="padding_left_15">Xem</span></a></div>
-               <div class="search_icon"><a href="#"><img src="frontend/images/user-icon.png"><span class="padding_left_15">Đăng Nhập</span></a></div>
-               <div class="search_icon"><a href="#"><img src="frontend/images/search-icon.png"><span class="padding_left_15">Tìm Kiếm...</span></a></div>
+               <div class="search_icon"><a href="#"><img src="frontend/images/notification-icon.png"><span class="padding_left_15">Notificastion</span></a></div>
+               <div class="search_icon"><a href="#"><img src="frontend/images/eye-icon.png"><span class="padding_left_15">Viwe</span></a></div>
+               <div class="search_icon"><a href="#"><img src="frontend/images/user-icon.png"><span class="padding_left_15">login</span></a></div>
+               <div class="search_icon"><a href="#"><img src="frontend/images/search-icon.png"><span class="padding_left_15">Search...</span></a></div>
             </div>
          </nav>
       </div>
       <!-- header section end -->
-      <!-- banner section end -->
-      <div class="banner_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="banner_taital">SÁCH <br>Thế Giới Của Nàng</div>
-                  <p class="banner_text">Sách là kho tàng tri thức của nhân loại </p>
-                  <div class="see_bt"><a href="#">Xem thêm</a></div>
-               </div>
-               <div class="col-md-6">
-                  <div class="play_icon"><a href="#"><img src="frontend/images/play-icon.png"></a></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- banner section end -->
-      <!-- arrival section start -->
-      <div class="arrival_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-6 col-lg-4">
-                  <div class="image_1">
-                     <h2 class="jesusroch_text">T H A N H M A I</h2>
-                     <p class="movie_text">Sách Hay</p>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-lg-4">
-                  <div class="image_2">
-                     <h2 class="jesusroch_text">T H A N H M A I</h2>
-                     <p class="movie_text">Sách Hay</p>
-                  </div>
-               </div>
-               <div class="col-sm-8 col-lg-4">
-                  <h1 class="arrival_text">C uốn S ách</h1>
-                  <div class="movie_main">
-                     <div class="mins_text_1">150 trang</div>
-                     <div class="mins_text">Thể Loại Sách</div>
-                     <div class="mins_text"><img src="frontend/images/icon-1.png"><span class="icon_1">Danh Sách Đọc</span></div>
-                  </div>
-                  <p class="long_text">Đây là một thực tế lâu đời rằng một độc giả sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó.</p>
-                  <div class="rating_main">
-                     <div class="row">
-                        <div class="col-sm-6 col-lg-6">
-                           <div class="icon_2"><img src="frontend/images/icon-2.png"><span class="padding_10">4.6 Đánh Giá</span></div>
-                        </div>
-                        <div class="col-sm-6 col-lg-6">
-                           <div class="icon_2"><img src="frontend/images/icon-2.png"><span class="padding_10">Đánh Giá Của Bạn</span></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="paly_bt"><a href="#">Đọc Ngay</a></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- arrival section end -->
       <!-- movies section start -->
       <div class="movies_section layout_padding">
          <div class="container">
             <div class="movies_menu">
                <ul>
-                  <li class="active"><a href="#">Tổng Quan</a></li>
-                  <li><a href="\truyen">Tiểu thuyết</a></li>
-                  <li><a href="\sach">Sách</a></li>
-                  <li><a href="#">Chương Trình</a></li>
-                  <li><a href="celebs.html">Tác Giả</a></li>
-                  <li><a href="#">Thể Thao</a></li>
-                  <li><a href="#">Tin Tức</a></li>
-                  <li><a href="#">Tranh Vẽ</a></li>
+                  <li class="active"><a href="#">Overview</a></li>
+                  <li><a href="\truyen">Truyện</a></li>
+                  <li><a href="movies.html">Movies</a></li>
+                  <li><a href="#">Show</a></li>
+                  <li><a href="celebs.html">Celeb</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Cartoon</a></li>
                </ul>
             </div>
             <div class="movies_section_2 layout_padding">
-               <h2 class="letest_text">Sách Mới Nhất</h2>
-               <div class="seemore_bt"><a href="#">Xem Thêm</a></div>
+               <h2 class="letest_text">Letest Movies</h2>
+               <div class="seemore_bt"><a href="#">See More</a></div>
                <div class="movies_main">
                   <div class="iamge_movies_main">
                      <div class="iamge_movies">
                         <div class="image_3">
                            <img src="frontend/images/img-3.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">CADE Prlor</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -161,11 +105,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-4.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Bradon</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -180,11 +124,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-5.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Anton Levin</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -199,11 +143,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-6.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Sacha Styles</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -218,11 +162,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-7.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Katledrazdu</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -237,19 +181,19 @@
                </div>
             </div>
             <div class="movies_section_2 layout_padding">
-               <h2 class="letest_text">Truyện</h2>
-               <div class="seemore_bt"><a href="#">Xem Thêm</a></div>
+               <h2 class="letest_text">TV Shows</h2>
+               <div class="seemore_bt"><a href="#">See More</a></div>
                <div class="movies_main">
                   <div class="iamge_movies_main">
                      <div class="iamge_movies">
                         <div class="image_3">
                            <img src="frontend/images/img-8.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">CADE Prlor</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -264,11 +208,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-9.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Bradon</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -283,18 +227,18 @@
                         <div class="image_3">
                            <img src="frontend/images/img-10.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Anton Levin</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
-                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
-                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend//star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend//star-icon.png"></a></li>
                            </ul>
                         </div>
                      </div>
@@ -302,11 +246,11 @@
                         <div class="image_3">
                            <img src="frontend/images/img-11.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Sacha Styles</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
@@ -321,13 +265,178 @@
                         <div class="image_3">
                            <img src="frontend/images/img-12.png" class="image" style="width:100%">
                            <div class="middle">
-                              <div class="playnow_bt">Đọc Ngay</div>
+                              <div class="playnow_bt">Play Now</div>
                            </div>
                         </div>
                         <h1 class="code_text">Katledrazdu</h1>
-                        <p class="there_text">Có nhiều biến thể khác nhau</p>
+                        <p class="there_text">There are many variations </p>
                         <div class="star_icon">
                            <ul>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
                               <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
-                              <li><
+                              <li><a href="#"><img src="frontend//star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="movies_section_2 layout_padding">
+               <h2 class="letest_text">Sports</h2>
+               <div class="seemore_bt"><a href="#">See More</a></div>
+               <div class="movies_main">
+                  <div class="iamge_movies_main">
+                     <div class="iamge_movies">
+                        <div class="image_3">
+                           <img src="frontend/images/img-13.png" class="image" style="width:100%">
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">CADE Prlor</h1>
+                        <p class="there_text">There are many variations </p>
+                        <div class="star_icon">
+                           <ul>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="image_3">
+                           <img src="frontend/images/img-14.png" class="image" style="width:100%">
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Bradon</h1>
+                        <p class="there_text">There are many variations </p>
+                        <div class="star_icon">
+                           <ul>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="image_3">
+                           <img src="frontend/images/img-15.png" class="image" style="width:100%">
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Anton Levin</h1>
+                        <p class="there_text">There are many variations </p>
+                        <div class="star_icon">
+                           <ul>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="image_3">
+                           <img src="frontend/images/img-16.png" class="image" style="width:100%">
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Sacha Styles</h1>
+                        <p class="there_text">There are many variations </p>
+                        <div class="star_icon">
+                           <ul>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="iamge_movies">
+                        <div class="image_3">
+                           <img src="frontend/images/img-7.png" class="image" style="width:100%">
+                           <div class="middle">
+                              <div class="playnow_bt">Play Now</div>
+                           </div>
+                        </div>
+                        <h1 class="code_text">Katledrazdu</h1>
+                        <p class="there_text">There are many variations </p>
+                        <div class="star_icon">
+                           <ul>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                              <li><a href="#"><img src="frontend/images/star-icon.png"></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="seebt_1"><a href="#">See More</a></div>
+         </div>
+      </div>
+      <!-- movies section end -->
+      <!-- footer  section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_menu">
+               <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="movies.html">Movies</a></li>
+                  <li><a href="tv.html">TV</a></li>
+                  <li><a href="celebs.html">Celebs</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">News</a></li>
+               </ul>
+            </div>
+            <div class="social_icon">
+               <ul>
+                  <li><a href="#"><img src="frontend/images/fb-icon.png"></a></li>
+                  <li><a href="#"><img src="frontend/images/twitter-icon.png"></a></li>
+                  <li><a href="#"><img src="frontend/images/linkedin-icon.png"></a></li>
+                  <li><a href="#"><img src="frontend/images/instagram-icon.png"></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- footer  section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <div class="copyright_text">Copyright 2019 All Right Reserved By <a href="https://html.design">Free html Templates</a></div>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="{{asset('frontend/js/jquery.min.js')}}"></script>
+      <script src="{{asset('frontend/js/popper.min.js')}}"></script>
+      <script src="{{asset('frontend/js/bootstrap.bundle.min.js')}}"></script>
+      <script src="{{asset('frontend/js/jquery-3.0.0.min.js')}}"></script>
+      <!-- sidebar -->
+      <script src="{{asset('frontend/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+      <script src="{{asset('frontend/js/custom.js')}}"></script>
+      <!-- javascript --> 
+      <script src="{{asset('frontend/js/owl.carousel.js')}}"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+      <script>
+         $('#datepicker').datepicker({
+             uiLibrary: 'bootstrap4'
+         });
+      </script>
+   </body>
+</html>
